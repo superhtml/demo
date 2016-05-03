@@ -1,2 +1,69 @@
 operating system: windows, ios
 Databases: MySql, SQL Server
+
+$ git clone git@github.com:superhtml/demo.git workspace
+
+$ git clone git@github.com:superhtml/demo.git workspace
+
+Initialized empty Git repository in /home/ubuntu/workspace/.git/
+
+Warning: Permanently added 'github.com,192.30.252.128' (RSA) to the list of known hosts.
+
+remote: Counting objects: 7, done.
+
+remote: Compressing objects: 100% (7/7), done.
+
+remote: Total 7 (delta 1), reused 6 (delta 0), pack-reused 0
+
+Unpacking objects: 100% (7/7), done.
+
+From github.com:superhtml/demo
+ 
+* [new branch]      master     -> origin/master
+
+superhtml:~/workspace (master) $ git add
+
+Nothing specified, nothing added.
+
+Maybe you wanted to say 'git add .'?
+
+superhtml:~/workspace (master) $ git add .
+
+superhtml:~/workspace (master) $ git commit .m "Eka versio"
+error: pathspec '.m' 
+did not match any file(s) known to git.
+
+error: pathspec 'Eka versio' did not match any file(s) known to git.
+
+superhtml:~/workspace (master) $ git commit -m "Eka versio"
+
+[master b76237b] Eka versio
+ 
+1 file changed, 9 insertions(+)
+ 
+create mode 100644 index.html
+
+superhtml:~/workspace (master) $ git push
+Warning: Permanently added 'github.com,192.30.252.120' (RSA) to the list of known hosts.
+
+Counting objects: 3, done.
+
+Delta compression using up to 8 threads.
+
+Compressing objects: 100% (3/3), done.
+
+Writing objects: 100% (3/3), 343 bytes | 0 bytes/s, done.
+
+Total 3 (delta 1), reused 0 (delta 0)
+
+To git@github.com:superhtml/demo.git
+ 
+  2d25121..b76237b  master -> master
+
+superhtml:~/workspace (master) $ git pull
+
+Warning: Permanently added 'github.com,192.30.252.120' (RSA) to the list of known hosts.
+
+Already up-to-date.
+
+superhtml:~/workspace (master) $ 
